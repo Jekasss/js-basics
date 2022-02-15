@@ -13,7 +13,7 @@ let Kirill = "Kirill";
 great (Kirill);
 
 function ilya() {
-    return "Ilya";;
+    return "Ilya";; //возвращает значение во внешний код
 }
 
 let c = ilya();
@@ -48,4 +48,4 @@ function pow(x, y) {
     return x**y; //возведение в степень
 }
 
-console.log (pow(2, 10));
+console.log (pow(3, 10));
