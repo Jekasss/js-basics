@@ -1,7 +1,5 @@
 /*
-let age = 19;
-let access;
- 
+let age = 17;
 let access;
 
 if (age > 18) {
@@ -9,12 +7,11 @@ if (age > 18) {
 } else {
     access = "Child"
 }
- */
 
 //переменная в которую присваиваем результат = условие ?
 //   значение возвращаемое если условие вернёт true : значение возвращаемое если условие вернёт false
-/*  let a1 = access ?? "not inicialized";   //оператор проверки на null
-access = age > 18 ? "Full": "Child"     //тернарное выражение. Используем если нужно вернуть какое-то значение по условию.
+ let a1 = access ?? "not inicialized";   //оператор проверки на null
+access = age > 16 ? "Full": "Child"     //тернарное выражение. Используем если нужно вернуть какое-то значение по условию.
                                         //Если нам нужно выполнить что-либо, используем оператор if
 let a2 = access ?? "not inicialized";   //оператор проверки на null
 
@@ -24,6 +21,7 @@ console.log(a2)
 */
 // ЛОГИЧЕСКИЕ ОПЕРАТОРЫ
 // && - опреатор "AND" логическое "И"
+/*
 let andResult = true && false
 console.log(andResult)
 
@@ -33,7 +31,7 @@ console.log(andResult1)
 
 let andResult2 = {} && "a"
 console.log(andResult2)
-/* 
+
 ТАБЛИЦА ИСТИННОСТИ ДЛЯ &&
 a    | b     | a && b
 -----+-------+--------
@@ -45,7 +43,6 @@ false| true  | false
 -----+-------+--------
 false| false | false
 -----+-------+--------
-*/
 
 let andResult3 = 5 < 10 && 2 > 1
 console.log(andResult3)
@@ -61,7 +58,6 @@ console.log(orResult1)
 let orResult2 = "" || 0
 console.log(orResult2)
 
-/* 
 ТАБЛИЦА ИСТИННОСТИ ДЛЯ ||
 a    | b     | a || b
 -----+-------+--------
@@ -73,12 +69,11 @@ false| true  | true
 -----+-------+--------
 false| false | false
 -----+-------+--------
-*/
 
 // if ((a || b ) && (c === 1 || d !== 0) || s) {}
 
 // ! - оператор "NOT" логическое "НЕ"
-
+*/
 let notResult = !true
 console.log(notResult)
 
@@ -90,8 +85,7 @@ console.log(notResult2)
 
 let notResult3 = !!5
 console.log(notResult3)
-
-/* 
+/*
 ТАБЛИЦА ИСТИННОСТИ ДЛЯ !
 a    | !a    
 -----+------+
@@ -100,7 +94,6 @@ true | false
 false| true 
 -----+------+
 */
-
 console.log(null || 4 || undefined);
 console.log(1 || null || 2);
 console.log(1 && null && 2);

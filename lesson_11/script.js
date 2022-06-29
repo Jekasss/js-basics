@@ -1,3 +1,4 @@
+/*
 // Массивы специальный объект отличается тем что ключи это числа а знчения это любые данные
 // есть свойство length задаёт размер массива
 let myArr = [5, 4 ,3, 2, 1, 0];
@@ -60,14 +61,14 @@ for (let i = 0; i < fruits.length; i++) {
 for (let value of fruits) { //цикл для массива
     console.log(value)
 }
-
+*/
 let matrix = [
     [1, 2, 3],
     [4, 5, 6],
     [7, 8, 9],
 ]
 
-console.log(matrix[1][1])
+console.log(matrix[1][2])
 
 for (let subArr of matrix) {
     for (let val of subArr) {
