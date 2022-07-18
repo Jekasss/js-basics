@@ -182,10 +182,12 @@ let password;
 user = prompt ("Введите логин");
 
 if (user == "Админ") {
+
     password = prompt ("Введите пароль");
+
     if (password == "Я главный") {
         alert ("Здравствуйте!");
-    }   else if (password == null) {
+    }   else if (password == null || password == "") {
         alert ("Отменено");
     }   else {
         alert ("Неверный пароль")
